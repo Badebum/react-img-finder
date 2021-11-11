@@ -1,0 +1,15 @@
+.feedBack {
+  color: cornsilk;
+  margin: 50px auto;
+  width: 450px;
+  height: 400px;
+  border: 1px solid black;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: rgb(131, 131, 233);
+}
+
+body {
+  background-color: khaki;
+}
