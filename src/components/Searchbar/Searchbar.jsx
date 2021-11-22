@@ -5,6 +5,7 @@ class SearchForm extends Component {
   state = { query: '' };
 
   handleChange = e => this.setState({ query: e.currentTarget.value });
+
   hendleSubmit = e => {
     e.preventDefault();
     this.props.onSubmit(this.state.query);
